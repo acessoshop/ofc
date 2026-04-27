@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Império dos Virais | Shopee</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- TOP HEADER -->
+<header class="top-header">
+  <button class="icon-btn" aria-label="Voltar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg>
+  </button>
+  <div class="search-bar">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#999" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+    <input type="text" placeholder="Pesquisar na loja" />
+  </div>
+  <button class="icon-btn cart-btn" aria-label="Carrinho">
+    <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+    <span class="badge">2</span>
+  </button>
+  <button class="icon-btn" aria-label="Mais">
+    <svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg>
+  </button>
+</header>
+
+<!-- STORE HERO -->
+<section class="store-hero">
+  <div class="store-info">
+    <div class="avatar-wrap">
+      <img src="images/avatar-loja.png" alt="Império dos Virais" />
+      <span class="online-dot"></span>
+    </div>
+    <div class="store-meta">
+      <div class="store-name">
+        Império dos Virais
+        <span class="mall-tag">Mall</span>
+      </div>
+      <div class="store-status"><span class="dot-online"></span>Online agora</div>
+    </div>
+    <div class="store-actions">
+      <button class="btn-outline-white">+ Seguir</button>
+      <button class="btn-outline-white">Chat</button>
+    </div>
+  </div>
+  <div class="store-stats">
+    <div><b>4.9</b><span>Avaliação</span></div>
+    <div><b>12.5k</b><span>Seguidores</span></div>
+    <div><b>98%</b><span>Resposta</span></div>
+  </div>
+</section>
+
+<!-- COUPON STRIP -->
+<section class="coupon-strip">
+  <div class="coupon">
+    <div class="coupon-left">R$10</div>
+    <div class="coupon-right">
+      <div>OFF acima de R$50</div>
+      <button>Coletar</button>
+    </div>
+  </div>
+  <div class="coupon">
+    <div class="coupon-left">R$25</div>
+    <div class="coupon-right">
+      <div>OFF acima de R$150</div>
+      <button>Coletar</button>
+    </div>
+  </div>
+</section>
+
+<!-- CATEGORY TABS -->
+<nav class="cat-tabs">
+  <button class="active">Início</button>
+  <button>Produtos</button>
+  <button>Categorias</button>
+  <button>Novidades</button>
+</nav>
+
+<!-- FLASH SALE BAR -->
+<div class="flash-bar">
+  <div class="flash-left">
+    <svg viewBox="0 0 24 24" fill="white"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+    Oferta Relâmpago
+  </div>
+  <div class="flash-right">
+    Termina em
+    <span class="timer">00</span>:<span class="timer">42</span>:<span class="timer">17</span>
+    <svg viewBox="0 0 24 24" fill="white"><path d="M9 18l6-6-6-6"/></svg>
+  </div>
+</div>
+
+<!-- PRODUCT RAIL -->
+<section class="rail">
+  <div class="rail-card" data-product="capacete">
+    <div class="rail-img"><img src="images/capacete-1.jpg" alt="Capacete LS2"/></div>
+    <div class="rail-info">
+      <div class="price-row"><span class="price">R$48,97</span></div>
+      <div class="old-price">R$799,00</div>
+    </div>
+    <div class="discount-pill">-94%</div>
+  </div>
+  <div class="rail-card" data-product="fone">
+    <div class="rail-img"><img src="images/fone-bluetooth.jpg" alt="Fone Bluetooth"/></div>
+    <div class="rail-info">
+      <div class="price-row"><span class="price">R$34,90</span></div>
+      <div class="old-price">R$189,00</div>
+    </div>
+    <div class="discount-pill">-81%</div>
+  </div>
+  <div class="rail-card" data-product="smartwatch">
+    <div class="rail-img"><img src="images/smartwatch.jpg" alt="Smartwatch"/></div>
+    <div class="rail-info">
+      <div class="price-row"><span class="price">R$59,90</span></div>
+      <div class="old-price">R$299,00</div>
+    </div>
+    <div class="discount-pill">-80%</div>
+  </div>
+  <div class="rail-card" data-product="caixa">
+    <div class="rail-img"><img src="images/caixa-som.jpg" alt="Caixa de Som"/></div>
+    <div class="rail-info">
+      <div class="price-row"><span class="price">R$45,90</span></div>
+      <div class="old-price">R$249,00</div>
+    </div>
+    <div class="discount-pill">-82%</div>
+  </div>
+</section>
+
+<!-- SECTION TITLE -->
+<div class="section-title">
+  <span>Para você</span>
+  <div class="title-bar"></div>
+</div>
+
+<!-- GRID -->
+<section class="grid" id="grid">
+  <!-- products injected by JS -->
+</section>
+
+<!-- BOTTOM BAR -->
+<nav class="bottom-bar">
+  <button class="bb-item active">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 12l9-9 9 9"/><path d="M5 10v10h14V10"/></svg>
+    <span>Loja</span>
+  </button>
+  <button class="bb-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    <span>Chat</span>
+  </button>
+  <button class="bb-item">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+    <span>Carrinho</span>
+    <span class="bb-badge">2</span>
+  </button>
+</nav>
+
+<!-- ============ PRODUCT MODAL (Página de Produto) ============ -->
+<div class="product-page" id="productPage" hidden>
+  <header class="top-header product-header">
+    <button class="icon-btn" id="backBtn" aria-label="Voltar">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="product-header-actions">
+      <button class="icon-btn"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg></button>
+      <button class="icon-btn cart-btn"><svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg><span class="badge">2</span></button>
+      <button class="icon-btn"><svg viewBox="0 0 24 24" fill="white"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg></button>
+    </div>
+  </header>
+
+  <!-- Gallery -->
+  <div class="gallery">
+    <img id="galleryImg" src="" alt="" />
+    <div class="photo-counter"><span id="photoIdx">1</span>/<span id="photoTotal">9</span></div>
+  </div>
+
+  <!-- Price block -->
+  <div class="product-price-block">
+    <div class="price-row-big">
+      <span class="big-price"><sup>R$</sup><span id="prodPrice">48</span><sup>,97</sup></span>
+      <span class="big-old" id="prodOld">R$799,00</span>
+      <span class="big-discount" id="prodDiscount">-94%</span>
+    </div>
+    <div class="sold-row">
+      <span class="bolt">⚡ Mais vendido</span>
+      <span id="prodSold">+2,3 mil vendidos</span>
+    </div>
+  </div>
+
+  <!-- Pink flash sale bar -->
+  <div class="flash-bar product-flash">
+    <div class="flash-left">
+      <svg viewBox="0 0 24 24" fill="white"><path d="M13 2L3 14h7l-1 8 10-12h-7l1-8z"/></svg>
+      OFERTA RELÂMPAGO
+    </div>
+    <div class="flash-right">
+      Termina em <span class="timer">00</span>:<span class="timer">42</span>:<span class="timer">17</span>
+      <svg viewBox="0 0 24 24" fill="white"><path d="M9 18l6-6-6-6"/></svg>
+    </div>
+  </div>
+
+  <!-- Title -->
+  <div class="prod-title-block">
+    <span class="pref-tag">Preferido</span>
+    <h1 id="prodTitle">CAPACETE LS2 CLASSIC</h1>
+  </div>
+
+  <!-- Reviews -->
+  <div class="reviews-block">
+    <div class="reviews-head">
+      <b>Avaliações do produto</b>
+      <a>Ver tudo &gt;</a>
+    </div>
+    <div class="reviews-empty">
+      <div class="stars">★★★★★</div>
+      <div>Ainda não há avaliações</div>
+    </div>
+  </div>
+
+  <!-- Specs -->
+  <div class="specs-block">
+    <h3>Especificações</h3>
+    <div class="spec-row"><span>Tamanho</span><b id="specSize">54 / XS, 56 / S, 58 / M, 60 / L, 62 / XL</b></div>
+    <div class="spec-row"><span>Modelo</span><b id="specModel">Branco, Vermelho, Preto, Verde, Roxo</b></div>
+    <div class="spec-row"><span>Estoque</span><b>986</b></div>
+    <div class="spec-row"><span>Enviado de</span><b>São Paulo</b></div>
+    <div class="spec-row"><span>Categoria</span><b>Shopee &gt; Esportes &gt; Motociclismo</b></div>
+  </div>
+
+  <!-- Description -->
+  <div class="desc-block">
+    <h3>Descrição do produto</h3>
+    <p id="prodDesc">Capacete LS2 Classic com design retrô e acabamento premium. Estrutura em ABS de alta resistência, viseira anti-risco e forração removível. Aprovado pelo INMETRO. Disponível em diversos tamanhos e cores.</p>
+  </div>
+
+  <!-- Bottom bar product -->
+  <nav class="product-bottom-bar">
+    <button class="pbb-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/></svg>
+      <span>Loja</span>
+    </button>
+    <button class="pbb-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      <span>Chat</span>
+    </button>
+    <button class="pbb-item" id="addCartBtn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+      <span>Carrinho</span>
+    </button>
+    <button class="buy-now" id="buyNowBtn">Comprar agora</button>
+  </nav>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
